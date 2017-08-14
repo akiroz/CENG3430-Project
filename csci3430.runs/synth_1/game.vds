@@ -1,0 +1,394 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon Apr 18 14:46:08 2016
+# Process ID: 22540
+# Current directory: /home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1
+# Command line: vivado -log game.vds -mode batch -messageDb vivado.pb -notrace -source game.tcl
+# Log file: /home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/game.vds
+# Journal file: /home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source game.tcl -notrace
+Command: synth_design -top game -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 966.523 ; gain = 134.918 ; free physical = 895 ; free virtual = 12082
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'game' [/home/boris/Documents/Active/CSCI3430 Project/game.v:2]
+WARNING: [Synth 8-387] label required on module instance [/home/boris/Documents/Active/CSCI3430 Project/game.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_manager' [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/realtime/clk_manager_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'clk_manager' (1#1) [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/realtime/clk_manager_stub.v:6]
+WARNING: [Synth 8-387] label required on module instance [/home/boris/Documents/Active/CSCI3430 Project/game.v:28]
+INFO: [Synth 8-638] synthesizing module 'gfx_engine' [/home/boris/Documents/Active/CSCI3430 Project/gfx_engine.v:4]
+INFO: [Synth 8-638] synthesizing module 'copy_counter' [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/realtime/copy_counter_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'copy_counter' (2#1) [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/realtime/copy_counter_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'vga_driver' [/home/boris/Documents/Active/CSCI3430 Project/vga_driver.v:17]
+INFO: [Synth 8-638] synthesizing module 'video_ram' [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/realtime/video_ram_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'video_ram' (3#1) [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/realtime/video_ram_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'vga_driver' (4#1) [/home/boris/Documents/Active/CSCI3430 Project/vga_driver.v:17]
+INFO: [Synth 8-638] synthesizing module 'start_bg' [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/realtime/start_bg_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'start_bg' (5#1) [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/realtime/start_bg_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'game_bg' [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/realtime/game_bg_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'game_bg' (6#1) [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/realtime/game_bg_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'end_bg' [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/realtime/end_bg_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'end_bg' (7#1) [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/realtime/end_bg_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'apple_sprite' [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/realtime/apple_sprite_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'apple_sprite' (8#1) [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/realtime/apple_sprite_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'snake_sprite' [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/realtime/snake_sprite_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'snake_sprite' (9#1) [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/realtime/snake_sprite_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'gfx_engine' (10#1) [/home/boris/Documents/Active/CSCI3430 Project/gfx_engine.v:4]
+INFO: [Synth 8-256] done synthesizing module 'game' (11#1) [/home/boris/Documents/Active/CSCI3430 Project/game.v:2]
+WARNING: [Synth 8-3331] design game has unconnected port btn_up
+WARNING: [Synth 8-3331] design game has unconnected port btn_lf
+WARNING: [Synth 8-3331] design game has unconnected port btn_rt
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1005.898 ; gain = 174.293 ; free physical = 852 ; free virtual = 12042
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1005.898 ; gain = 174.293 ; free physical = 853 ; free virtual = 12042
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp/video_ram_in_context.xdc] for cell 'nolabel_line28/vdrv1/vram1'
+Finished Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp/video_ram_in_context.xdc] for cell 'nolabel_line28/vdrv1/vram1'
+Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp_2/clk_manager_in_context.xdc] for cell 'nolabel_line23'
+Finished Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp_2/clk_manager_in_context.xdc] for cell 'nolabel_line23'
+Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp_3/start_bg_in_context.xdc] for cell 'nolabel_line28/bg1'
+Finished Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp_3/start_bg_in_context.xdc] for cell 'nolabel_line28/bg1'
+Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp_4/copy_counter_in_context.xdc] for cell 'nolabel_line28/ccnt1'
+Finished Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp_4/copy_counter_in_context.xdc] for cell 'nolabel_line28/ccnt1'
+Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp_5/game_bg_in_context.xdc] for cell 'nolabel_line28/bg2'
+Finished Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp_5/game_bg_in_context.xdc] for cell 'nolabel_line28/bg2'
+Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp_6/end_bg_in_context.xdc] for cell 'nolabel_line28/bg3'
+Finished Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp_6/end_bg_in_context.xdc] for cell 'nolabel_line28/bg3'
+Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp_7/apple_sprite_in_context.xdc] for cell 'nolabel_line28/sp1'
+Finished Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp_7/apple_sprite_in_context.xdc] for cell 'nolabel_line28/sp1'
+Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp_8/snake_sprite_in_context.xdc] for cell 'nolabel_line28/sp2'
+Finished Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp_8/snake_sprite_in_context.xdc] for cell 'nolabel_line28/sp2'
+Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/zedboard_master_XDC_RevC_D_v2.xdc]
+WARNING: [Vivado 12-507] No nets matched 'btn_dn_IBUF'. [/home/boris/Documents/Active/CSCI3430 Project/zedboard_master_XDC_RevC_D_v2.xdc:341]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 33]]'. [/home/boris/Documents/Active/CSCI3430 Project/zedboard_master_XDC_RevC_D_v2.xdc:359]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 34]]'. [/home/boris/Documents/Active/CSCI3430 Project/zedboard_master_XDC_RevC_D_v2.xdc:364]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 35]]'. [/home/boris/Documents/Active/CSCI3430 Project/zedboard_master_XDC_RevC_D_v2.xdc:369]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 13]]'. [/home/boris/Documents/Active/CSCI3430 Project/zedboard_master_XDC_RevC_D_v2.xdc:372]
+Finished Parsing XDC File [/home/boris/Documents/Active/CSCI3430 Project/zedboard_master_XDC_RevC_D_v2.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/boris/Documents/Active/CSCI3430 Project/zedboard_master_XDC_RevC_D_v2.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/game_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/boris/Documents/Active/CSCI3430 Project/zedboard_master_XDC_RevC_D_v2.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/game_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/game_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1319.758 ; gain = 0.000 ; free physical = 662 ; free virtual = 11857
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context implementation of instance 'nolabel_line28/bg1' at clock pin 'clka' is different from the actual clock period '10.000', this can result in different implementation results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context implementation of instance 'nolabel_line28/bg2' at clock pin 'clka' is different from the actual clock period '10.000', this can result in different implementation results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context implementation of instance 'nolabel_line28/bg3' at clock pin 'clka' is different from the actual clock period '10.000', this can result in different implementation results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context implementation of instance 'nolabel_line28/ccnt1' at clock pin 'CLK' is different from the actual clock period '10.000', this can result in different implementation results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context implementation of instance 'nolabel_line28/sp1' at clock pin 'clka' is different from the actual clock period '10.000', this can result in different implementation results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context implementation of instance 'nolabel_line28/sp2' at clock pin 'clka' is different from the actual clock period '10.000', this can result in different implementation results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context implementation of instance 'nolabel_line28/vdrv1/vram1' at clock pin 'clka' is different from the actual clock period '10.000', this can result in different implementation results.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 22582 
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1319.758 ; gain = 488.152 ; free physical = 658 ; free virtual = 11855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1319.758 ; gain = 488.152 ; free physical = 658 ; free virtual = 11855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_100M. (constraint file  {/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1/.Xil/Vivado-22540-michiru/dcp_2/clk_manager_in_context.xdc}, line 3).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1319.758 ; gain = 488.152 ; free physical = 658 ; free virtual = 11855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1319.758 ; gain = 488.152 ; free physical = 642 ; free virtual = 11839
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 4     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module vga_driver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+Module gfx_engine 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 4     
++---Registers : 
+	                4 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1319.766 ; gain = 488.160 ; free physical = 642 ; free virtual = 11840
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'nolabel_line28/sprite_x_reg[3:0]' into 'nolabel_line28/sprite_x_reg[3:0]' [/home/boris/Documents/Active/CSCI3430 Project/gfx_engine.v:44]
+INFO: [Synth 8-4471] merging register 'nolabel_line28/sprite_y_reg[3:0]' into 'nolabel_line28/sprite_y_reg[3:0]' [/home/boris/Documents/Active/CSCI3430 Project/gfx_engine.v:44]
+INFO: [Synth 8-4471] merging register 'nolabel_line28/sprite_y_reg[3:0]' into 'nolabel_line28/sprite_y_reg[3:0]' [/home/boris/Documents/Active/CSCI3430 Project/gfx_engine.v:44]
+INFO: [Synth 8-4471] merging register 'nolabel_line28/sprite_x_reg[3:0]' into 'nolabel_line28/sprite_x_reg[3:0]' [/home/boris/Documents/Active/CSCI3430 Project/gfx_engine.v:44]
+WARNING: [Synth 8-3331] design game has unconnected port btn_up
+WARNING: [Synth 8-3331] design game has unconnected port btn_lf
+WARNING: [Synth 8-3331] design game has unconnected port btn_rt
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1319.766 ; gain = 488.160 ; free physical = 645 ; free virtual = 11842
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1319.766 ; gain = 488.160 ; free physical = 645 ; free virtual = 11842
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1319.766 ; gain = 488.160 ; free physical = 628 ; free virtual = 11826
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1319.766 ; gain = 488.160 ; free physical = 628 ; free virtual = 11826
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'nolabel_line23/clk_out1' to pin 'nolabel_line23/bbstub_clk_out1/O'
+INFO: Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1319.766 ; gain = 488.160 ; free physical = 558 ; free virtual = 11780
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1319.766 ; gain = 488.160 ; free physical = 543 ; free virtual = 11766
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1321.773 ; gain = 490.168 ; free physical = 536 ; free virtual = 11758
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1321.773 ; gain = 490.168 ; free physical = 536 ; free virtual = 11758
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1321.773 ; gain = 490.168 ; free physical = 536 ; free virtual = 11758
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1321.773 ; gain = 490.168 ; free physical = 534 ; free virtual = 11758
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1321.773 ; gain = 490.168 ; free physical = 534 ; free virtual = 11758
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1321.773 ; gain = 490.168 ; free physical = 534 ; free virtual = 11758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1321.773 ; gain = 490.168 ; free physical = 534 ; free virtual = 11758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1321.773 ; gain = 490.168 ; free physical = 533 ; free virtual = 11758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1321.773 ; gain = 490.168 ; free physical = 533 ; free virtual = 11758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_manager   |         1|
+|2     |copy_counter  |         1|
+|3     |start_bg      |         1|
+|4     |game_bg       |         1|
+|5     |end_bg        |         1|
+|6     |apple_sprite  |         1|
+|7     |snake_sprite  |         1|
+|8     |video_ram     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------------+------+
+|      |Cell         |Count |
++------+-------------+------+
+|1     |apple_sprite |     1|
+|2     |clk_manager  |     1|
+|3     |copy_counter |     1|
+|4     |end_bg       |     1|
+|5     |game_bg      |     1|
+|6     |snake_sprite |     1|
+|7     |start_bg     |     1|
+|8     |video_ram    |     1|
+|9     |BUFG         |     2|
+|10    |CARRY4       |     7|
+|11    |LUT1         |    20|
+|12    |LUT2         |    16|
+|13    |LUT3         |    16|
+|14    |LUT4         |    19|
+|15    |LUT5         |    38|
+|16    |LUT6         |    29|
+|17    |FDCE         |    21|
+|18    |FDPE         |     1|
+|19    |FDRE         |     8|
+|20    |LDC          |     1|
+|21    |IBUF         |     5|
+|22    |OBUF         |    15|
++------+-------------+------+
+
+Report Instance Areas: 
++------+-----------------+-----------+------+
+|      |Instance         |Module     |Cells |
++------+-----------------+-----------+------+
+|1     |top              |           |   288|
+|2     |  nolabel_line28 |gfx_engine |   265|
+|3     |    vdrv1        |vga_driver |   148|
++------+-----------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1321.773 ; gain = 490.168 ; free physical = 533 ; free virtual = 11758
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1321.773 ; gain = 84.391 ; free physical = 541 ; free virtual = 11766
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1321.773 ; gain = 490.168 ; free physical = 541 ; free virtual = 11766
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 22 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  LDC => LDCE: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+40 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1321.773 ; gain = 418.836 ; free physical = 540 ; free virtual = 11766
+report_utilization: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1353.789 ; gain = 0.000 ; free physical = 538 ; free virtual = 11766
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 18 14:46:39 2016...

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="video_ram_synth_1" LaunchDir="/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/video_ram_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="clk_manager_synth_1" LaunchDir="/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/clk_manager_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="start_bg_synth_1" LaunchDir="/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/start_bg_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="copy_counter_synth_1" LaunchDir="/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/copy_counter_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="game_bg_synth_1" LaunchDir="/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/game_bg_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="end_bg_synth_1" LaunchDir="/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/end_bg_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="apple_sprite_synth_1" LaunchDir="/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/apple_sprite_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

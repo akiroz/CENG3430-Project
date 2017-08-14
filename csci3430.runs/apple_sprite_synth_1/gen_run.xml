@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="apple_sprite_synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1460961512">
+  <File Type="VDS-TIMING-PB" Name="apple_sprite_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="apple_sprite_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="apple_sprite.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="apple_sprite_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="apple_sprite_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="apple_sprite_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="apple_sprite.vds"/>
+  <File Type="PA-TCL" Name="apple_sprite.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/apple_sprite_synth_1/apple_sprite_synth_1.psg"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/apple_sprite_synth_1/sources.xml"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/apple_sprite_synth_1/constrs_in.xml"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/apple_sprite">
+    <File Path="$PSRCDIR/sources_1/ip/apple_sprite/apple_sprite.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="apple_sprite"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/apple_sprite">
+    <File Path="$PSRCDIR/sources_1/ip/apple_sprite/apple_sprite.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="apple_sprite"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

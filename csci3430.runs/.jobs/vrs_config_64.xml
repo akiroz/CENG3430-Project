@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="video_ram_synth_1" LaunchDir="/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/video_ram_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="start_bg_synth_1" LaunchDir="/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/start_bg_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="game_bg_synth_1" LaunchDir="/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/game_bg_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="end_bg_synth_1" LaunchDir="/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/end_bg_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="apple_sprite_synth_1" LaunchDir="/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/apple_sprite_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="video_ram_synth_1"/>
+		<Parent Id="start_bg_synth_1"/>
+		<Parent Id="game_bg_synth_1"/>
+		<Parent Id="end_bg_synth_1"/>
+		<Parent Id="apple_sprite_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="/home/boris/Documents/Active/CSCI3430 Project/csci3430.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+	</Run>
+</Runs>
+

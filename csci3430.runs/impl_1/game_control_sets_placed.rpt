@@ -1,0 +1,66 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Mon Apr 18 14:47:20 2016
+| Host         : michiru running 64-bit unknown
+| Command      : report_control_sets -verbose -file game_control_sets_placed.rpt
+| Design       : game
+| Device       : xc7z020
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    13 |
+| Minimum Number of register sites lost to control set restrictions |    59 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              15 |            4 |
+| No           | No                    | Yes                    |              13 |            7 |
+| No           | Yes                   | No                     |               1 |            1 |
+| Yes          | No                    | No                     |              15 |           12 |
+| Yes          | No                    | Yes                    |               9 |            3 |
+| Yes          | Yes                   | No                     |               8 |            2 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------------------+------------------------------+------------------------------------------+------------------+----------------+
+|                   Clock Signal                   |         Enable Signal        |             Set/Reset Signal             | Slice Load Count | Bel Load Count |
++--------------------------------------------------+------------------------------+------------------------------------------+------------------+----------------+
+| ~btn_dn_IBUF_BUFG                                |                              | nolabel_line28/busy_i_1_n_0              |                1 |              1 |
+| ~btn_dn_IBUF_BUFG                                |                              | nolabel_line28/clr_count_reg_LDC_i_1_n_0 |                1 |              1 |
+| ~btn_dn_IBUF_BUFG                                |                              | nolabel_line28/clr_count_reg_LDC_i_2_n_0 |                1 |              1 |
+|  nolabel_line28/clr_count_reg_LDC_i_1_n_0        |                              | nolabel_line28/clr_count_reg_LDC_i_2_n_0 |                1 |              1 |
+|  clk_100M_BUFG                                   | nolabel_line28/busy          | nolabel_line28/sprite_x[3]_i_1_n_0       |                1 |              4 |
+|  clk_100M_BUFG                                   | nolabel_line28/sprite_x      | nolabel_line28/sprite_y[3]_i_1_n_0       |                1 |              4 |
+|  nolabel_line28/nclk_100M                        | nolabel_line28/sprite_sel[0] |                                          |                4 |              5 |
+|  nolabel_line28/nclk_100M                        | nolabel_line28/sprite_sel[1] |                                          |                4 |              5 |
+|  nolabel_line28/nclk_100M                        | nolabel_line28/sprite_sel[2] |                                          |                4 |              5 |
+|  nolabel_line23/inst/clk_out1                    |                              |                                          |                3 |              7 |
+|  nolabel_line23/inst/clk_out1_clk_manager_en_clk |                              |                                          |                1 |              8 |
+| ~nolabel_line23/inst/clk_out1                    | nolabel_line28/vdrv1/load    | reset_IBUF                               |                3 |              9 |
+| ~nolabel_line23/inst/clk_out1                    |                              | reset_IBUF                               |                4 |             10 |
++--------------------------------------------------+------------------------------+------------------------------------------+------------------+----------------+
+
+

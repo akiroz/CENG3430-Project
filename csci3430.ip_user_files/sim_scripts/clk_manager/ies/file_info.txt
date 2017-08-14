@@ -1,0 +1,4 @@
+Language File-Name              IP           Library         File-Path                                                               
+Verilog, clk_manager_clk_wiz.v, clk_manager, xil_defaultlib, ../../../../csci3430.srcs/sources_1/ip/clk_manager/clk_manager_clk_wiz.v
+Verilog, clk_manager.v,         clk_manager, xil_defaultlib, ../../../../csci3430.srcs/sources_1/ip/clk_manager/clk_manager.v        
+Verilog, glbl.v,                *,           xil_defaultlib, glbl.v                                                                  
